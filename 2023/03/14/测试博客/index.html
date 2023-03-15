@@ -12,12 +12,7 @@
   <meta name="google" content="notranslate" />
   <meta name="referrer" content="no-referrer" />
   
-  <meta name="description" content="111
-1
-1
-1
-2023/3/15写的
-">
+  <meta name="description" content="日志202303月0314 实验对比把改进放在三次样条...">
   <meta name="author" content="Luweir">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -206,18 +201,53 @@
     <div class="head-info">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>三月 14, 2023</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>22</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1239</span>
     </div>
   </div>
 </section>
     <section class="main">
       <section class="content">
         
-        <p>111</p>
-<p>1</p>
-<p>1</p>
-<p>1</p>
-<p>2023/3/15写的</p>
+        <h1 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h1><h2 id="202303月"><a href="#202303月" class="headerlink" title="202303月"></a>202303月</h2><h4 id="0314-实验对比"><a href="#0314-实验对比" class="headerlink" title="0314 实验对比"></a>0314 实验对比</h4><p>把改进放在三次样条上；<br>是不是时间间隔有问题；<br>修改组和连续异常点的个数；<br>再仔细看看代码，有没有bug；</p>
+<p>复现 线性插值算法LI 和 三次样条插值算法 CSI；<br>比较算法：</p>
+<ol>
+<li>线性插值</li>
+<li>三次样条插值</li>
+<li>运动插值</li>
+<li>改进的运动插值</li>
+</ol>
+<p>指标：</p>
+<ol>
+<li>不同损失率下的位置和速度均方误差RMSE</li>
+<li>轨迹修复后与原始轨迹的相似度</li>
+<li>画宏观图比较</li>
+<li>同一损失率下的位置RMSE分布箱图</li>
+<li>DP压缩修复与未修复轨迹后分别与原始轨迹的误差（PED）</li>
+<li>压缩后的轨迹与原始轨迹的相似度</li>
+</ol>
+<h4 id="0313-基于局部特征的运动插值轨迹修复算法-LFKI"><a href="#0313-基于局部特征的运动插值轨迹修复算法-LFKI" class="headerlink" title="0313 基于局部特征的运动插值轨迹修复算法 LFKI"></a>0313 基于局部特征的运动插值轨迹修复算法 LFKI</h4><p>:::info<br>前置点 before 和 后置点 after<br>当两端端点和预测的端点误差的最大值小于min{两段端点的相邻运动距离}的1/2时，我们才认为前置点和后置点的运动插值曲线才可以采取；否则直接使用运动差值；<br>:::<br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678695098887-d6246f18-366a-455e-8ec9-48e4ca33699d.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span><br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678694986103-ae4803f2-13e3-4dd1-9506-e4a425502ae7.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span></p>
+<p>轨迹1：连续2个异常点可视化：【28、】<br>轨迹2：连续六个异常点时的可视化：【38、66、45、69、77、108】</p>
+<p><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678687943756-28ad1791-f4a1-4f94-95e6-33fc6fb77f18.png#averageHue=%23ffffff&clientId=ucee3c64f-8a62-4&from=paste&height=630&id=u486a1880&name=image.png&originHeight=630&originWidth=597&originalType=binary&ratio=1&rotation=0&showTitle=true&size=7505&status=done&style=none&taskId=ufe95cda8-c256-4bf9-891a-12de79ee487&title=%E3%80%9023%E3%80%8126%E3%80%8154%E3%80%913%2A5&width=597" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="    title="【23、26、54】3*5"><span class="image-caption">image.png</span><br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678686485968-88e73aa3-140a-4937-9353-9834c3d52867.png#averageHue=%23fbfbfb&clientId=ucee3c64f-8a62-4&from=paste&height=464&id=u25b444ff&name=image.png&originHeight=464&originWidth=629&originalType=binary&ratio=1&rotation=0&showTitle=true&size=22376&status=done&style=none&taskId=ud357e7d4-5e81-4c44-bad4-1f440ec9d28&title=%E3%80%909%E3%80%8155%E3%80%8197%E3%80%913%2A5&width=629" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="    title="【9、55、97】3*5"><span class="image-caption">image.png</span><br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678680886079-6f01f8c5-1ac3-4907-a696-55f096408bd6.png#averageHue=%23fefefe&clientId=ucee3c64f-8a62-4&from=paste&height=471&id=u5bae1c9f&name=image.png&originHeight=471&originWidth=653&originalType=binary&ratio=1&rotation=0&showTitle=true&size=4964&status=done&style=none&taskId=ub3544d76-2347-444d-bcc8-10f99a54818&title=%5B34%E3%80%8161%E3%80%81108%5D%203%2A5&width=653" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="    title="[34、61、108] 3*5"><span class="image-caption">image.png</span></p>
+<h4 id="0312-撸代码"><a href="#0312-撸代码" class="headerlink" title="0312 撸代码"></a>0312 撸代码</h4><p><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678627028590-cfc913aa-979b-491a-810e-8a59289111a3.png#averageHue=%23fbfbfb&clientId=u50d2ef2c-d82d-4&from=paste&height=390&id=u9e813bc5&name=image.png&originHeight=390&originWidth=918&originalType=binary&ratio=1&rotation=0&showTitle=true&size=11141&status=done&style=none&taskId=ua40f8e16-55c4-4591-bbfb-096cba19145&title=%5B50%2063%2095%5D%20%2A5&width=918" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="    title="[50 63 95] *5"><span class="image-caption">image.png</span></p>
+<h4 id="0311-基于运动插值的双向迭代轨迹修复算法"><a href="#0311-基于运动插值的双向迭代轨迹修复算法" class="headerlink" title="0311 基于运动插值的双向迭代轨迹修复算法"></a>0311 基于运动插值的双向迭代轨迹修复算法</h4><p><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678412763565-8d5b11fa-a7fd-4aec-83d7-0d1607e36189.png#averageHue=%23faf9f9&clientId=u27300c6a-cce0-4&from=paste&height=328&id=u60ccd11a&name=image.png&originHeight=416&originWidth=744&originalType=binary&ratio=1&rotation=0&showTitle=false&size=39950&status=done&style=none&taskId=uabc9fdc1-5992-48ba-996e-cff64481702&title=&width=586" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span><br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678429666996-e71fbe04-0043-4e19-ba79-e5cee017b7bd.png#averageHue=%23fbfbfb&clientId=u2e3153eb-1f36-4&from=paste&height=381&id=ub62134ac&name=image.png&originHeight=463&originWidth=631&originalType=binary&ratio=1&rotation=0&showTitle=false&size=45825&status=done&style=none&taskId=u3d924359-07e3-4a5c-a058-a95a50d3982&title=&width=519" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span><br>线图+散点图(s=1)画起来挺有立体感</p>
+<blockquote>
+<p>复现的KI算法效果并不好</p>
+</blockquote>
+<p>找了一批 间隔2min的AIS数据<br><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678503685788-5c65672b-9c40-4da9-a66a-56c8b6145b33.png#averageHue=%23dbd9d6&clientId=u1929fef8-4e6a-4&from=paste&height=326&id=uf2f7b1f6&name=image.png&originHeight=326&originWidth=1015&originalType=binary&ratio=1&rotation=0&showTitle=false&size=37250&status=done&style=none&taskId=ue5f7bcf6-02b8-4576-89b2-4e5abc73265&title=&width=1015" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span></p>
+<blockquote>
+<p>Debug：emm 实际上是 代码那地方，米 和 经纬度的变换没搞好；</p>
+</blockquote>
+<blockquote>
+<p>KI算法：修复的点数较少时，KI的效果还可以；修复的点数较多时，KI的效果就很差了</p>
+</blockquote>
+<blockquote>
+<p>IKI 算法</p>
+</blockquote>
+<p><img    class="lazyload" data-original="https://cdn.nlark.com/yuque/0/2023/png/25978784/1678604971570-6e9682d0-aee7-4f16-bff6-8994515e42e9.png#averageHue=%23fbfbfb&clientId=u4f0fc9fe-04b9-4&from=paste&height=542&id=ue805054b&name=image.png&originHeight=542&originWidth=1286&originalType=binary&ratio=1&rotation=0&showTitle=false&size=35200&status=done&style=none&taskId=u5bb3ab06-7c24-4fb0-9fd7-f68c265bb20&title=&width=1286" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">image.png</span><br>:::info<br>KI和IKI都是基于加速度的连续性，即缺失轨迹段内移动物体的加速度呈线性变化$a(t)=v(t_i)+b(t-t_i)$；但实际上速度的变化趋势很可能这样：<br>   $P_{i-front}$       $P_i$          缺失点1     缺失点2   缺失点1     缺失点2   缺失点1   $P_j$     $P_{j+behind}$<br>$V$    2                 3               4                6              8              5             2            2             2<br>如果单纯的考虑加速度的线性变换，上述轨迹点拟合出来的位置值将远小于实际值，误差很大；<br>这是KI和IKI的一大缺点，其次IKI本身还一个缺点，就是在当连续丢失多个异常点时，用两个调和点 front 和 behind 调和 $P_i 和 P_j$ 的加速度，这可能会降低插值的效果，因为此时的 front 和 behind 距离 i 和 j 较远，物体在这些时刻的运动特征已截然不同；<br>:::</p>
+<p> 为此我们引入</p>
+<blockquote>
+<p>基于运动插值的双向迭代轨迹修复算法</p>
+</blockquote>
 
       </section>
       <section class="extra">
@@ -260,7 +290,7 @@
           
   <aside class="toc-wrap">
     <h3 class="toc-title">文章目录：</h3>
-    
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%97%A5%E5%BF%97"><span class="toc-text">日志</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#202303%E6%9C%88"><span class="toc-text">202303月</span></a></li></ol></li></ol>
   </aside>
 
         
