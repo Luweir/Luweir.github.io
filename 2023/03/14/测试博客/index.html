@@ -122,8 +122,8 @@
         page_black_list: ''
       },
       search: {
-        enable: false,
-        path: ''
+        enable: true,
+        path: 'search.xml'
       }
     }
   </script>
@@ -151,6 +151,8 @@
       
         <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
       
     </div>
     <div class="center">测试博客</div>
@@ -251,6 +253,14 @@
 
       </section>
       <section class="extra">
+        
+          <ul class="copyright">
+  
+    <li><strong>本文作者：</strong>Luweir</li>
+    <li><strong>本文链接：</strong><a href="https://luweir.gitee.io/luweir/2023/03/14/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/index.html" title="https:&#x2F;&#x2F;luweir.gitee.io&#x2F;luweir&#x2F;2023&#x2F;03&#x2F;14&#x2F;%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2&#x2F;index.html">https:&#x2F;&#x2F;luweir.gitee.io&#x2F;luweir&#x2F;2023&#x2F;03&#x2F;14&#x2F;%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2&#x2F;index.html</a></li>
+    <li><strong>版权声明：</strong>本博客所有文章均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" title="BY-NC-SA" target="_blank" rel="noopener">BY-NC-SA</a> 许可协议，转载请注明出处！</li>
+  
+</ul>
         
         
         
@@ -373,6 +383,20 @@
 <script src="/luweir/js/color-mode.js"></script>
 
   
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
   
 </body>
 
