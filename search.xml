@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2023/03/16/my-first-blog/</url>
-    <content><![CDATA[<h1 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h1><p>每周都抽空看阮一峰的网络日志，觉得大佬做的是真好啊，分享各种事情，只做简要总结，不做评论。我很久很久之前就有博客念想，之前也搭过博客准备写技术，无奈自己的技术实在难顶，没有产出就没有做下去的激情。后面就没咋用了，清理的时候顺带删了。平时也写吧，就在CSDN这些平台上随便写写，存当记录。现在一想想，博客不一定非得产出技术文章啊，好的趣事、摘要、科技动态、相片故事、搞笑梗，大到所有人都聚焦的热点，小到视野之外的某个角落，只要觉得可，就有记录下来的意义。而且，个人博客不一定得面向 all people 啊，记录自己的成长，足迹，每一点进步，何尝不是有意义的事呢。So，虽然第二个点还在做实验，但我这人一旦决定干什么，便会立马 fork 出一个线程执行。得继续做些自己想做的事😄。</p>
-<blockquote>
-<p>为什么用 Gitee，而不是用 Github搭建？</p>
-</blockquote>
-<p>虽然 Gitee 有空间限制，开源也要实名认证一堆事，但唯一好处：国内快速访问，毕竟在我想要看自己博客的时候不用翻墙😋。</p>
-<h1 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h1><p>CodeLwueir，本科东北电力大学（船营区小清华），专业核工程与技术；硕士湖南大学（9B5），专业计算机技术，emm，跨考396分上岸，往事就算了，赶着毕业。</p>
-<p>喜欢的东西挺多，打桌球、篮球、乒乓球、羽毛球、健身、玩游戏、拍照，但各个都不咋精吧，啥都会，又啥都不会，偶尔看看书（现在常看）、看看经典电影。</p>
-<p>偶像，choosen one -&gt; Lebron James；</p>
-<p>秋招签过一个公司，后来违约去了华子，软开，毕竟没有违约的秋招是不圆满的，其实是自己的执念。</p>
-<p>有比赛，但含金量一般，没有什么大的荣誉，技术栈也不丰富，就不咋写了，意义不大。</p>
-<p>这一部分倒是可以直接放在 关于 页面，省事。</p>
-<h1 id="科研废话"><a href="#科研废话" class="headerlink" title="科研废话"></a>科研废话</h1><p>研究方向：大数据存储和管理，准确的说是数据压缩里面的轨迹数据压缩，还有现在搞的一点轨迹修复，感觉相比高级的神经网络深度学习，我更喜欢跟数据打交道。</p>
-<p>目前还在死磕大论文，第二个点实验还没做全，唉，一堆要补的，争取早点搞出来把，科研属实不是我的菜。</p>
-<h1 id="实习秋招"><a href="#实习秋招" class="headerlink" title="实习秋招"></a>实习秋招</h1><p>其实，有时候挺欣赏 B 站很多up主的，金鱼井就是一个，从实习开始关注的吧，南航的好像是机械专业，找的互联网的实习，也是签的互联网，怎么说呢，我俩实习秋招经历很像啊，三四月开始准备，5月都拿了广联达offer保底，后面他去恒生电子实习，我去了华子，秋招刚开始也是举步艰难，简直就是大厂一个没有，小厂又不想去，一些国企研究所倒很爽快。最后他去了广联达，也是拒了几个好地方，三方给了最初的一道光。我没去达子，虽然给得足够有诚意，小sp吧，考虑很多因素，已经达子在北京，emmmm，不太喜欢。拒了南瑞、中科云谷（还来舔）、28所、三一还有一些银行和小企业不记得了。印象最深的就是欧冶半导体了，给足了诚意，免HR面，三天给offer，薪资还比我报的高，不过当时还是执念以及考虑初创公司的风险，没去，希望他以后做大做强吧，里面都是华为的大佬，把芯片搞牛逼。后来11月30号签了金山，武汉，客三消中的客户端，属实是没办法了，想去的地方迟迟不给答复，只能先签了，好在后面12月发了奖状，违约就违约吧，不care。</p>
-<p>我这种开始没准备好，后面抱佛脚的，走的确实很艰难，加上今年形势是真的差😭。之前想去腾讯，没去上，字节三面后排序挂了，阿里过了笔试被告知部分不招实习生了，满了。难搞哦，现在记不太清了，当时非常非常想写一篇关于实习和秋招的心路历程，但赶着做事，一直搁这，现在一想想，博客就应该想到啥就写啥，语言组织有这么重要么，内容排版有这么重要么，过得去就行。</p>
-<h1 id="写在后面的话"><a href="#写在后面的话" class="headerlink" title="写在后面的话"></a>写在后面的话</h1><p>加油吧，做自己想做的事，人间一趟，积极向上，不念过往，不畏将来！共勉👍</p>
-]]></content>
-      <categories>
-        <category>记录</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/03/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>换个角度看世界，换个角度看自己</title>
     <url>/2023/03/25/change-the-angle/</url>
     <content><![CDATA[<p>今天在某乎上看到的一篇调整心态，有利于自身成长的好文，记录一下。</p>
@@ -98,9 +45,62 @@
         <category>成长</category>
       </categories>
       <tags>
-        <tag>生活</tag>
         <tag>哲学</tag>
+        <tag>生活</tag>
         <tag>心态</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2023/03/16/my-first-blog/</url>
+    <content><![CDATA[<h1 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h1><p>每周都抽空看阮一峰的网络日志，觉得大佬做的是真好啊，分享各种事情，只做简要总结，不做评论。我很久很久之前就有博客念想，之前也搭过博客准备写技术，无奈自己的技术实在难顶，没有产出就没有做下去的激情。后面就没咋用了，清理的时候顺带删了。平时也写吧，就在CSDN这些平台上随便写写，存当记录。现在一想想，博客不一定非得产出技术文章啊，好的趣事、摘要、科技动态、相片故事、搞笑梗，大到所有人都聚焦的热点，小到视野之外的某个角落，只要觉得可，就有记录下来的意义。而且，个人博客不一定得面向 all people 啊，记录自己的成长，足迹，每一点进步，何尝不是有意义的事呢。So，虽然第二个点还在做实验，但我这人一旦决定干什么，便会立马 fork 出一个线程执行。得继续做些自己想做的事😄。</p>
+<blockquote>
+<p>为什么用 Gitee，而不是用 Github搭建？</p>
+</blockquote>
+<p>虽然 Gitee 有空间限制，开源也要实名认证一堆事，但唯一好处：国内快速访问，毕竟在我想要看自己博客的时候不用翻墙😋。</p>
+<h1 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h1><p>CodeLwueir，本科东北电力大学（船营区小清华），专业核工程与技术；硕士湖南大学（9B5），专业计算机技术，emm，跨考396分上岸，往事就算了，赶着毕业。</p>
+<p>喜欢的东西挺多，打桌球、篮球、乒乓球、羽毛球、健身、玩游戏、拍照，但各个都不咋精吧，啥都会，又啥都不会，偶尔看看书（现在常看）、看看经典电影。</p>
+<p>偶像，choosen one -&gt; Lebron James；</p>
+<p>秋招签过一个公司，后来违约去了华子，软开，毕竟没有违约的秋招是不圆满的，其实是自己的执念。</p>
+<p>有比赛，但含金量一般，没有什么大的荣誉，技术栈也不丰富，就不咋写了，意义不大。</p>
+<p>这一部分倒是可以直接放在 关于 页面，省事。</p>
+<h1 id="科研废话"><a href="#科研废话" class="headerlink" title="科研废话"></a>科研废话</h1><p>研究方向：大数据存储和管理，准确的说是数据压缩里面的轨迹数据压缩，还有现在搞的一点轨迹修复，感觉相比高级的神经网络深度学习，我更喜欢跟数据打交道。</p>
+<p>目前还在死磕大论文，第二个点实验还没做全，唉，一堆要补的，争取早点搞出来把，科研属实不是我的菜。</p>
+<h1 id="实习秋招"><a href="#实习秋招" class="headerlink" title="实习秋招"></a>实习秋招</h1><p>其实，有时候挺欣赏 B 站很多up主的，金鱼井就是一个，从实习开始关注的吧，南航的好像是机械专业，找的互联网的实习，也是签的互联网，怎么说呢，我俩实习秋招经历很像啊，三四月开始准备，5月都拿了广联达offer保底，后面他去恒生电子实习，我去了华子，秋招刚开始也是举步艰难，简直就是大厂一个没有，小厂又不想去，一些国企研究所倒很爽快。最后他去了广联达，也是拒了几个好地方，三方给了最初的一道光。我没去达子，虽然给得足够有诚意，小sp吧，考虑很多因素，已经达子在北京，emmmm，不太喜欢。拒了南瑞、中科云谷（还来舔）、28所、三一还有一些银行和小企业不记得了。印象最深的就是欧冶半导体了，给足了诚意，免HR面，三天给offer，薪资还比我报的高，不过当时还是执念以及考虑初创公司的风险，没去，希望他以后做大做强吧，里面都是华为的大佬，把芯片搞牛逼。后来11月30号签了金山，武汉，客三消中的客户端，属实是没办法了，想去的地方迟迟不给答复，只能先签了，好在后面12月发了奖状，违约就违约吧，不care。</p>
+<p>我这种开始没准备好，后面抱佛脚的，走的确实很艰难，加上今年形势是真的差😭。之前想去腾讯，没去上，字节三面后排序挂了，阿里过了笔试被告知部分不招实习生了，满了。难搞哦，现在记不太清了，当时非常非常想写一篇关于实习和秋招的心路历程，但赶着做事，一直搁这，现在一想想，博客就应该想到啥就写啥，语言组织有这么重要么，内容排版有这么重要么，过得去就行。</p>
+<h1 id="写在后面的话"><a href="#写在后面的话" class="headerlink" title="写在后面的话"></a>写在后面的话</h1><p>加油吧，做自己想做的事，人间一趟，积极向上，不念过往，不畏将来！共勉👍</p>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/03/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -126,8 +126,8 @@
         <category>记录</category>
       </categories>
       <tags>
-        <tag>记录</tag>
         <tag>生活</tag>
+        <tag>记录</tag>
         <tag>科研</tag>
         <tag>师门</tag>
       </tags>
