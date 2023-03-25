@@ -3,7 +3,7 @@
   <entry>
     <title>换个角度看世界，换个角度看自己</title>
     <url>/luweir/2023/03/25/change-the-angle/</url>
-    <content><![CDATA[<p>今天在知乎上看到的一篇调整心态，有利于自身成长的好文，记录一下。</p>
+    <content><![CDATA[<p>今天在某乎上看到的一篇调整心态，有利于自身成长的好文，记录一下。</p>
 <h1 id="没有什么能真正伤害到你"><a href="#没有什么能真正伤害到你" class="headerlink" title="没有什么能真正伤害到你"></a>没有什么能真正伤害到你</h1><p>严重的焦虑状态之后，让我明白一件事。没有什么能真正伤害到你。 那些令你焦虑恐惧的念头伤害不了你。那些人伤害不了你。</p>
 <p>他人的否定，不认同，贬低，中伤依旧伤害不了你。</p>
 <p> 萦绕在你脑海中让你挥之不去的，隐忧地，烦扰你的那些恐惧，对未来之事的焦灼，灾难性后果的预设，各种风险和极端的可能性，只是大脑对你的欺骗。它甚至骗过了你的躯体，杏仁核对身体发出了警报，你正在面临很大的危险。其实你所害怕的事很大程度不会发生。</p>
@@ -39,6 +39,7 @@
 <p>慢慢接纳自己身上那些晦暗的部分，原谅自己的迟钝和平庸，允许自己出错，允许事与愿违，接纳无常，带着缺憾拼命绽放，这是与自己达成和解的唯一办法。 </p>
 <p>荣格说，【追求生命的完整，而非完美】</p>
 <p>当你一直主动发起与这个世界的撞击，你会知道，无论结果如何，所有撞击带来的回馈，都意味着你在真正地成长。</p>
+<p>链接：<a href="https://www.zhihu.com/question/511311505/answer/2948653494">在明白什么道理后，你不再焦虑了？ </a></p>
 ]]></content>
       <categories>
         <category>成长</category>
@@ -47,31 +48,6 @@
         <tag>哲学</tag>
         <tag>生活</tag>
         <tag>心态</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/luweir/2023/03/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -100,6 +76,31 @@
       <tags>
         <tag>生活</tag>
         <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/luweir/2023/03/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
