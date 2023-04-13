@@ -51,31 +51,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/03/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的第一篇博客</title>
     <url>/2023/03/16/my-first-blog/</url>
     <content><![CDATA[<h1 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h1><p>每周都抽空看阮一峰的网络日志，觉得大佬做的是真好啊，分享各种事情，只做简要总结，不做评论。我很久很久之前就有博客念想，之前也搭过博客准备写技术，无奈自己的技术实在难顶，没有产出就没有做下去的激情。后面就没咋用了，清理的时候顺带删了。平时也写吧，就在CSDN这些平台上随便写写，存当记录。现在一想想，博客不一定非得产出技术文章啊，好的趣事、摘要、科技动态、相片故事、搞笑梗，大到所有人都聚焦的热点，小到视野之外的某个角落，只要觉得可，就有记录下来的意义。而且，个人博客不一定得面向 all people 啊，记录自己的成长，足迹，每一点进步，何尝不是有意义的事呢。So，虽然第二个点还在做实验，但我这人一旦决定干什么，便会立马 fork 出一个线程执行。得继续做些自己想做的事😄。</p>
@@ -105,6 +80,31 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/03/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月底论文进展和生活记录</title>
     <url>/2023/03/23/paper-progress-and-life-records-at-the-end-of-march/</url>
     <content><![CDATA[<h1 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h1><p>本来想每周更新下自制的《视野之外》网络期刊，但这个的确做起来比我想的要难，尤其在三四月忙毕业论文的时候。要去逛一大堆科技、艺术网站，倒是也积累了五六个，但终归没到合起来发布一期的内容，只能忙里偷闲来收集了。这玩意感觉，找点有意思的东西还真没我想的难，主体还得是文章、图片等的，倒是在B站上看了很多有意思的视频，总不能一个刊里面全部放视频链接吧，😅。</p>
@@ -131,6 +131,25 @@
         <tag>记录</tag>
         <tag>科研</tag>
         <tag>师门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4月中送审前的挣扎</title>
+    <url>/2023/04/13/struggle-before-submission-for-trial/</url>
+    <content><![CDATA[<p>又过去了一个月，貌似从3月到4月什么事都没干，还惹了很多事端啊，过得真挣扎。</p>
+<p>本来想着四月初好好写完大论文，然后把小论文再整整，结果赶上SIGMOD的round2投稿日期，4月15，又要在这之前跟谢老师讨论并修改完，希望过了15号，小论文的事就告一段落吧，毕竟5月57之后才出结果，那时候也答辩完了。不得不说，还是挺佩服谢老师写论文的水平，把普通变高级，能很好地概括出文章的重心，着重看的就是标题、摘要、引言和实验，的确搞出一些比较高档的词汇和短语，震惊，比如直接把 intra-trajectory 和 inter-trajectory 写在题目上。还有就是，牛逼的人一开口就能问到重点，牛逼的人也是谷歌机翻去找灵感，hhhhh。</p>
+<p>最近吃吃玩玩，大论文的确是有点耽误了，但也还好吧，应该能赶在4月底之前搞完，15号之后就可以全身心投入了。目前的话，框架部分还需要完善，修复和异常那一块的原理还没写上去。然后重构的实验结果还没进行文字解释，目测来看，word 4w字应该不是问题，眼下就是第二个点的实验最后那部分能通过yang那里的审核就行。</p>
+<p>感情上也是有点不顺，两个人都有点犟，说不清到底是怎么一回事，我还是不成熟，不会很好地管理自己的情绪，也有点累，生活的方方面面。写之前心里还想了一些话，写的时候一股脑就全忘了，罢了，顺气自然咯，hhhh。想起来了，心里想的就是，收起我那可怜的保护欲吧，并不是所有人都需要我保护、照顾，并不是我在乎的人离开我了就不行，想这想那只会无端消磨自己的精力，好好专注眼下的事，不慌不忙，一点点前进，至于很多我不可控的事情，过去了就便让他过去吧，是自己的兜兜转转还会回到自己身边，不是自己的，就算怎么努力，怎么握紧，那总归会成为过去。</p>
+<p>就先写这么多吧，该发的网络日志也没法，我就是喜欢给自己安排很多事，但实际上自己的能力和时间又抗不下来，还是太急切了，太急切地想获得很多东西，不好！要改！</p>
+<p>这个壁纸是最近喜欢上的，很好看。</p>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>记录</tag>
+        <tag>科研</tag>
       </tags>
   </entry>
 </search>
